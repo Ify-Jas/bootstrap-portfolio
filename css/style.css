@@ -18,6 +18,14 @@
     color: #0c0910;
 }
 
+h1 {
+    text-align: center;
+    margin: 30px auto;
+}
+
+section {
+    margin: 50px;
+}
 .cardContainer {
     padding: 10x;
 }
@@ -33,4 +41,22 @@
 }
 .card-img-top {
     height: 65vh;
+}
+.btn:hover {
+    background-color: grey;
+}
+main {
+    margin: 40px;
+    padding: 20px;
+}
+main .col {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px darkgrey;
+      transition: 1s;
+}
+li {
+    list-style: none;
 }

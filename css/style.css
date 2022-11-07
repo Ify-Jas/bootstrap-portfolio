@@ -1,9 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-
 }
-
+/*Navigation Bar */
 .nav-item {
     padding: 10px;
 }
@@ -12,12 +11,7 @@
     background-color: grey;
 }
 
-.fa {
-    padding: 10px;
-    font-size: 40px;
-    color: #0c0910;
-}
-
+/*Jumbotron*/
 h1 {
     text-align: center;
     margin: 30px auto;
@@ -26,6 +20,7 @@ h1 {
     text-align: center;
 }
 
+/*portfolio*/
 section {
     margin: 100px;
 }
@@ -51,6 +46,8 @@ section div {
 .btn:hover {
     background-color: grey;
 }
+
+/*Skills Section*/
 main {
     margin: 40px;
     padding: 20px;
@@ -66,6 +63,8 @@ main .col {
 li {
     list-style: none;
 }
+
+/*Contact section*/
 form {
     margin: 30px;
 }
@@ -81,9 +80,17 @@ form button {
     margin-left: 20px;
     width: 100px;
 }
+
+/*footer section*/
 footer {
     height: 150px;
     background-color: rgb(236, 233, 233);
     text-align: center;
     padding: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    color: #0c0910;
 }

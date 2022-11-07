@@ -22,29 +22,22 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#About-Me">About Me<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Skills Stack</a>
+              <a class="nav-link" href="#Skills-Stack">Skills Stack</a>
             </li>
-            <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                More
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Education</a>
-                <a class="dropdown-item" href="#">Hobbies</a>
-                <a class="dropdown-item" href="#">Contact Me</a>
-              </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="#Contact-Me">Contact Me</a>
             </li>
           </ul>
         </div>
       </nav>
     <!--About Me-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="About-Me">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
@@ -54,18 +47,13 @@
                     <h1 class="display-4 font-weight-bold"> Hi, I'm Ifeoma Ezeoke</h1>
                     <p class="lead font-weight-bold"> I am a Junior Web Developer.</p>
                     <hr class="my-4">
-                    <p>You can find more of me below.</p>
-                    <a href="https://github.com/Ify-Jas" class="fa fa-github"></a>
-                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
-                    <a href="https://linkedin.com/" class="fa fa-linkedin"></a>
                 </div>
 
             </div>
         </div>    
     </div>
     <!--portfolio section-->
-    <section>
+    <section id="Portfolio">
         <h1>My Work</h1>
         <div class="row container-fluid">
             <div class="cardContainer col-lg-4 col-md-4 col-sm-6">
@@ -101,7 +89,7 @@
         </div>
     </section>
     <!--Skills Sectoin-->
-    <main>
+    <main id="Skills-Stack">
         <h1>Skills Stack</h1>
         <div class="row container-fluid">
             <div class="col col-lg-4 col-md-4 col-sm-6">
@@ -130,6 +118,33 @@
             </div>
         </div>
     </main>
+    <form id="Contact-Me">
+        <h1>Contact Me</h1>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col message-col">
+                <input type="text" class="form-control" placeholder="Type Message here">
+            </div>
+        </div>
+        <button class="btn btn-primary">
+            Send
+        </button>
+      </form>
+      <footer>
+        <a href="https://github.com/Ify-Jas" class="fa fa-github"></a>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://linkedin.com/" class="fa fa-linkedin"></a>
+        <p>&copy; Ifeoma Ezeoke Company</p>
+
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>

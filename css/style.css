@@ -11,3 +11,9 @@
 .nav-item:hover {
     background-color: grey;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    color: #0c0910;
+}

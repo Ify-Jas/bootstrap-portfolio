@@ -22,16 +22,18 @@ h1 {
 
 /*portfolio*/
 section {
-    margin: 100px;
+    margin: 50px;
 }
-section div {
-    justify-content: center;
+section div .row {
+    justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 .cardContainer {
     padding: 10x;
 }
 
 .card {
+    width: 150px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px darkgrey;
       transition: 1s;
